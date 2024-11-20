@@ -1,5 +1,27 @@
-template-repository (1.0-1) unstable; urgency=medium
+golang-gopkg-h2non-gock.v1 (1.1.2-1) unstable; urgency=medium
 
-  * Initial release
+  * Team upload.
+  * New upstream version 1.1.2
+  * Reorder fields in debian/control and debian/copyright
+  * Use dh-sequence-golang instead of dh-golang and --with=golang
+  * Bump Standards-Version to 4.6.1 (no change)
+  * Mark library package with "Multi-Arch: foreign"
+  * Skip TestResponderPreExpiredContext which fails up to 80% of the time
+    with go1.16 and up
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- Anthony Fok <foka@debian.org>  Wed, 10 Aug 2022 15:38:30 -0600
+
+golang-gopkg-h2non-gock.v1 (1.0.16-1) unstable; urgency=medium
+
+  * Team upload.
+  * New upstream release
+  * Update Standards-Version to 4.5.1 (no changes)
+  * Skip flaky tests
+
+ -- Shengjing Zhu <zhsj@debian.org>  Tue, 19 Jan 2021 11:43:16 +0800
+
+golang-gopkg-h2non-gock.v1 (1.0.15-1) unstable; urgency=medium
+
+  * Initial release (Closes: #975345)
+
+ -- Félix Sipma <felix+debian@gueux.org>  Fri, 20 Nov 2020 15:21:49 +0100
